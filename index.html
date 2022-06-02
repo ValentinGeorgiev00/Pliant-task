@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&;900display=swap"
+                rel="stylesheet">
+        <script src="https://kit.fontawesome.com/15442fa804.js" crossorigin="anonymous"></script>
+
+        <title>Ghost Host</title>
+    </head> 
+    <body>
+        <header class="header">
+            <nav class="navigation">
+                <section class="logo">
+                    <img src="Images/logo.png" alt="" srcset="">
+                </section>
+                <section class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-button" onclick="hideMenu()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <ul class="dropdown-content" id="dropdown-content">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Domain</a></li>
+                        <li><a href="#">Hosting</a></li>
+                        <li><a href="#">Clients</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </section>
+            </nav>
+            <div class="intro">
+                <h1>Hello!</h1>
+                <h2>We love our work...</h2>    
+                <h2>And We're taking it seriously...</h2>
+            </div>
+        </header>
+            <section class="buttons">
+                    <button class="login">login</button>
+                    <button class="register">register</button>
+            </section>
+            <main class="main-container">
+                <section class="about-us">
+                    <p class="title-аbout"><span>About</span> Us</p>
+                    <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi adipisci natus
+                            autem quos eos
+                            inventore provident culpa iste vitae unde optio expedita fugit odit alias sunt reiciendis
+                            quisquam minus molestias, ipsa accusamus praesentium rerum...</p>
+                </section>
+
+                <section class="team">
+                    <ul>
+                        <li>
+                            <img src="Images/team-1.png" alt="" srcset="">
+                            <h4>Jonny Doe</h4>
+                            <p class="title">Designer</p>
+                            <div class="icons">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fas fa-link blue"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/team-2.png" alt="" srcset="">
+                            <h4>John Doe</h4>
+                            <p class="title">Designer</p>
+                            <div class="icons">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fas fa-link"></i>
+                            </div>
+
+                        </li>
+                        <li>
+                            <img src="Images/team-3.png" alt="" srcset="">
+                            <h4>Jonathan Doe</h4>
+                            <p class="title">Designer</p>
+                            <div class="icons">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fas fa-link"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </main>
+            <section class="carousel">
+                <article class="my-slides fade">
+                    <p>
+                            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, earum."
+                    </p>
+
+                </article>
+                <article class="my-slides fade">
+                    <p>
+                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, facere quisquam assumenda omnis
+                            beatae quasi."
+                    </p>
+
+                </article>
+                <article class="my-slides fade">
+                    <p>
+                            "Deleniti quo ducimus explicabo vero ratione at iste asperiores magni numquam molestias illum doloribus perspiciatis tenetur assumenda, provident ullam porro perferendis aperiam."
+                    </p>
+                </article>
+                <div>
+                    <ul class="names">
+                        <li class="my-names fade"><h4>Jonny Doe</h4></li>
+                        <li class="my-names fade"><h4>John Doe</h4></li>
+                        <li class="my-names fade"><h4>Johnatan Doe</h4></li>
+                    </ul>
+                    <ul class="dots">
+                        <li class="dot" onclick='currentSlide(1)'></li>
+                        <li class="dot" onclick='currentSlide(2)'></li>
+                        <li class="dot" onclick='currentSlide(3)'></li>
+                    </ul>
+                </div>
+        </section>
+        <section class="services">
+                <article>
+                    <i class="fas fa-bolt"></i>
+                    <h4>Fast Servers</h4>
+                    <p class="title">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                </article>
+                <article>
+                    <i class="fas fa-cloud"></i>
+                    <h4>Cloud Servers</h4>
+                    <p class="title">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                </article>
+                <article>
+                    <i class="fas fa-arrows-alt"></i>
+                    <h4>Domain Tansfer</h4>
+                    <p class="title">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                </article>
+                <article>
+                    <i class="fas fa-comments"></i>
+                    <h4>Live Support</h4>
+                    <p class="title">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                </article>
+        </section>
+        <footer>
+                <section class="side-section">
+                    <p class="footer-text">Lorem ipsum dolor sit amet, consecteteeseuri adipisicing elit. Donec mollis
+                            commodoeesene que, non commodo risus volutpat vel.</p>
+                    <p class="footer-text">Designed by <span>Mert Can Eyriyer.</span></p>
+                </section>
+                <section class="lists">
+                    <ul>
+                            <li><span>Support</span></li>
+                            <li><span>Account</span></li>
+                            <li><span>Product Catalog</span></li>
+                            <li><span>Shortcodes</span></li>
+                    </ul>
+                    <ul>
+                            <li><span>Site Map</span></li>
+                            <li><span>Whois Search</span></li>
+                            <li><span>Web Mail</span></li>
+                            <li><span>Find Domain</span></li>
+                    </ul>
+                </section>
+                <section class="side-section contacts">
+                    <article>
+                            <i class="fas fa-phone-alt"></i><span class="footer-text">0000-0000-0000</span>
+                    </article>
+                    <article>
+                            <i class="fas fa-envelope"></i><span class="footer-text">informationteam@ghosthost.com</span>
+                    </article>
+                    <article>
+                            <span class="footer-text">Lorem Ipsum Street, Lorem Avenue,</span>
+                    </article>
+                    <article>
+                            <span class="footer-text">Lorem Ipsum</span>
+                    </article>
+                </section>
+        </footer>
+        <script src="./JavaScript.js"></script>
+    </body>
+</html>
